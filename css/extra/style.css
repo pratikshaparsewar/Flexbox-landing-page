@@ -1,0 +1,244 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #F6F8FD;
+}
+
+body {
+    font-family: "Proxima Nova";
+    background: #F6F8FD;
+}
+
+
+/* Utility CSS START */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: block;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+    ;
+}
+
+
+/* Utility CSS END */
+
+header {
+    width: 100vw;
+}
+
+.navbar-top {
+    background: blue;
+    height: 56px;
+    background: #fff;
+}
+
+.navbar-top,
+.navbar {
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-top .navbar-item,
+.navbar .navbar-item {
+    line-height: 56px;
+}
+
+.navbar-item .contact-details,
+.navbar-item .booking,
+.navbar-item .cart-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 16px;
+}
+
+.navbar-item .booking,
+.navbar-item .cart-icon {
+    border-left: 1px solid #e1e3e9;
+}
+
+.navbar-item .cart-icon {
+    padding: 0 22px;
+}
+
+.navbar-item .contact-details .material-icons,
+.navbar-item .booking .material-icons,
+.navbar-item .cart-icon .material-icons {
+    vertical-align: -6px;
+}
+
+
+.navbar-top .company-logo,
+.navbar .company-logo {
+    padding: 0 13px;
+    vertical-align: middle;
+}
+
+.navbar-top .char-A,
+.navbar .char-A {
+    background: #DC6B79;
+    border-radius: 50%;
+    line-height: 56px;
+    padding: 5px 7px;
+    color: #fff;
+}
+
+
+.navbar-top .booking .cart-icon,
+.navbar .booking .cart-icon {
+    border-left: 2px solid #43425;
+}
+
+.navbar-top .booking span,
+.navbar .booking span {
+    line-height: 56px;
+}
+
+.navbar {
+    background: #6267BE;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: #b4b6f1;
+}
+
+.overview {
+    background: #edf1fa;
+    color: #92959d;
+    height: 138px;
+}
+
+.overview .overview-block {
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview .overview-block .overview-item {
+    width: 230px;
+    text-align: center;
+    padding: 17px 0;
+    display: inline-block;
+    border-left: 2px solid #d5dae7;
+}
+
+.overview .overview-item .item-icon {
+    margin-left: 10px;
+    width: 24px;
+}
+
+.main-page .page-block {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 20%;
+}
+
+.page-block .item-btm {
+    border-top: 1px solid #e1e3e9;
+}
+
+.page-block .item-btm .item-amount {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #2a2c2e;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.page-block .item-btm .amount-info {
+    max-width: 214px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #92959d padding: 0 15px 15px 20px;
+}
+
+.page-block .item-btm .del-icon {
+    width: 37px;
+    height: 37px;
+}
+
+.main-page .second-page {
+
+}
+
+.submit-btn {
+    width: 180px;
+    height: 38px;
+    line-height: 21px;
+    background: #27AE60;
+    color: #ffffff;
+    border: 0 none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+footer {
+    padding: 0 70px;
+    max-width: 1162px;
+    margin: 0 auto;
+}
+
+.footer-upper {
+    border-bottom: 1px solid #e1e3e9;
+    padding-bottom: 22px;
+}
+
+.footer-lower {
+    padding: 22px 0 60px;
+}
+
+.footer-left,
+.footer-right {
+    float: left;
+    width: 50%;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+
+
